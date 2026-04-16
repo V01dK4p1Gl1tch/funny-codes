@@ -1,0 +1,30 @@
+def greet():
+    x=[
+    "Soulja Boy up in this hoe",
+    "watch me crank dat, watch me roll",
+    "watch me crank dat Soulja Boy and superman dat hoe",
+    "now watch me YOOOOOU!",
+    "crank dat Soulja Boy",
+    ]
+    greet=str(x[0][-3]+x[0][-1]+x[0][3]+x[1][-1]+x[0][-2]+" "+x[2][0]+x[0][1]+x[1][10]+x[2][22]+x[4][6]+x[3][-1])
+    return greet
+
+def greet1():
+    poem = []
+    
+    poem.append("h is for happy")
+    poem.append("e is for energy")
+    poem.append("l is for love")
+    poem.append("l is also for life")
+    poem.append("o is for original like this poem")
+    poem.append(" ")
+    poem.append("w is for your well-being")
+    poem.append("o is for optimism which we all should have")
+    poem.append("r is for rest which we all need more")
+    poem.append("l is longing for a better future")
+    poem.append("d is a deep-felt thanks for reading this poem")
+    poem.append("! <3<3<3")
+    
+    return ''.join(p[0] for p in poem)
+
+
